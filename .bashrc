@@ -14,7 +14,11 @@ eval "$(starship init bash)"
 #    . ~/.bash_aliases
 #fi
 
+
+alias vim="nvim"
+alias vi="nvim"
 alias install="sudo pacman -S"
+alias update="sudo pacman -Syu"
 
 # Increase history size
 export HISTSIZE=5000 # Increase the number of commands stored in memory.
