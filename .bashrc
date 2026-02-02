@@ -19,6 +19,7 @@ alias vim="nvim"
 alias vi="nvim"
 alias install="sudo pacman -S"
 alias update="sudo pacman -Syu"
+alias info="sudo pacman -Ss"
 
 # Increase history size
 export HISTSIZE=5000 # Increase the number of commands stored in memory.
