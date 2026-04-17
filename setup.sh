@@ -1,4 +1,4 @@
 mv ~/.bashrc ~/.bashrc.bak
-stow bash
+stow . --ignore=".sh"
 
 make -C ./bash/ble.sh install PREFIX=~/.local
